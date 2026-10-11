@@ -1,8 +1,6 @@
 name: CD
 on:
-  push:
-    branches: [main]
-    tags: ['v*']
+  workflow_call:                   # only callable from ci.yml after tests pass; cannot run on its own
 
 permissions:
   contents: read
