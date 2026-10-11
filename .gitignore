@@ -1,0 +1,15 @@
+# Environment secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+.venv/
+venv/
+
+# Private key files
+*.pem
+*.key
+.venv-wsl/
+.pytest_cache/
